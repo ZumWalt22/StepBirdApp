@@ -1,0 +1,53 @@
+
+
+MasterからTrx生成
+タグ設定について、以下の優先順序でタグが設定される
+Trx→TrxLink→Master→MasterLink→MasterMain
+
+テンプレートの設定方法は、以下の書式でTrx、Masterのコメント欄に記述
+テンプレート名=テンプレート設定内容
+
+タグの設定は、下記のようにテンプレート名の前後にカギカッコを付けると
+以下の操作時に指定の内容に置き換えられる
+[タグ名]
+
+
+FileInfo、Trx、Master
+
+□MailInfo
+
+・メール送信設定タグ
+種別に「Mail」を選択した場合に設定可能
+「SetMailTemplate」ボタンを押下するとテンプレートが生成される
+メールID=[MAIL_ID]
+メールタイトル=[MAIL_TITLE]
+メール送信者=[MAIL_SEND]
+メールin本文=[MAIL_BODY]
+
+replyMailID=xxxxx-xxxx-xxxx
+title=XXXXXX
+toAddressListStr=AAAA@YYYY.ZZZ;BBBB@YYYY.ZZZ;
+ccAddressListStr=CCCC@YYYY.ZZZ;DDDD@YYYY.ZZZ;
+bccAddressListStr=EEEE@YYYY.ZZZ;FFFF@YYYY.ZZZ;
+attachmentFilePassListStr=C:\AAA\AAA.csv;C:\BBB\BBB.csv;
+contents=test Message 
+ 
+this is test1Line 
+this is test2Line 
+
+
+□MailList
+Master
+メール一覧で対象となるメールキーワード設定のタグ名を設定することで
+
+
+タグ名：TARGET_MAIL_MSG
+設定例：TARGET_MAIL_MSG=タイトル名XXXX
+
+
+□付箋の大きさ設定タグ
+DBのHLC_MAINテーブル　ID:0の以下のタグを追加し幅、高さの値を設定
+fusenWidth=横幅
+fusenHeight=縦幅
+
+
