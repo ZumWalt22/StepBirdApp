@@ -133,3 +133,4 @@ Ctrl+E	編集画面
 Ctrl+O	TreeのOpen、Close
 Ctrl+C	画面を閉じる
 Ctrl+U	Tree更新
+Ctrl+F	Fileパス取得
