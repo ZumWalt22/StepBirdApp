@@ -2,6 +2,4 @@ task_dir_do=TaskFile\do
 task_dir_log=TaskFile\log
 task_dir_info=TaskFile\info
 task_dir_wait=TaskFile\wait
-win_capt_img=C:TaskFile\winCapt
-default_set_lvl=3
-defset_=3
+gmail_url=https://mail.google.com/mail/?view=cm
